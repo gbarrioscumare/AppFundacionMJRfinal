@@ -18,22 +18,105 @@ export const RestaurantDetailScreen = ({ route }) => {
       <RestaurantInfoCard restaurant={restaurant} />
       <ScrollView>
         <List.Accordion
-          title="Descripcion"
+          title="Semana 1"
           left={(props) => <List.Icon {...props} icon="book" />}
           expanded={breakfastExpanded}
           onPress={() => setBreakfastExpanded(!breakfastExpanded)}
         >
-          <List.Item title="Descripcion del curso 1" />
+          <List.Item title="Contenido semana 1" />
         </List.Accordion>
 
         <List.Accordion
-          title="PDF"
+          title="Semana 2"
           left={(props) => <List.Icon {...props} icon="book" />}
           expanded={lunchExpanded}
           onPress={() => setLunchExpanded(!lunchExpanded)}
         >
-          <List.Item title="Aqui se descarga el PDF del curso" />
+          <List.Item title="Contenido semana 2" />
         </List.Accordion>
+
+        <List.Accordion
+          title="Semana 3"
+          left={(props) => <List.Icon {...props} icon="book" />}
+          expanded={lunchExpanded}
+          onPress={() => setLunchExpanded(!lunchExpanded)}
+        >
+          <List.Item title="Contenido semana 3" />
+        </List.Accordion>
+
+        <List.Accordion
+          title="Semana 4"
+          left={(props) => <List.Icon {...props} icon="book" />}
+          expanded={lunchExpanded}
+          onPress={() => setLunchExpanded(!lunchExpanded)}
+        >
+          <List.Item title="Contenido semana 4" />
+        </List.Accordion>
+
+        <List.Accordion
+          title="Semana 5"
+          left={(props) => <List.Icon {...props} icon="book" />}
+          expanded={lunchExpanded}
+          onPress={() => setLunchExpanded(!lunchExpanded)}
+        >
+          <List.Item title="Contenido semana 5" />
+        </List.Accordion>
+
+        <List.Accordion
+          title="Semana 6"
+          left={(props) => <List.Icon {...props} icon="book" />}
+          expanded={lunchExpanded}
+          onPress={() => setLunchExpanded(!lunchExpanded)}
+        >
+          <List.Item title="Contenido semana 6" />
+        </List.Accordion>
+
+        <List.Accordion
+          title="Semana 7"
+          left={(props) => <List.Icon {...props} icon="book" />}
+          expanded={lunchExpanded}
+          onPress={() => setLunchExpanded(!lunchExpanded)}
+        >
+          <List.Item title="Contenido semana 7" />
+        </List.Accordion>
+
+        <List.Accordion
+          title="Semana 8"
+          left={(props) => <List.Icon {...props} icon="book" />}
+          expanded={lunchExpanded}
+          onPress={() => setLunchExpanded(!lunchExpanded)}
+        >
+          <List.Item title="Contenido semana 8" />
+        </List.Accordion>
+
+        <List.Accordion
+          title="Semana 9"
+          left={(props) => <List.Icon {...props} icon="book" />}
+          expanded={lunchExpanded}
+          onPress={() => setLunchExpanded(!lunchExpanded)}
+        >
+          <List.Item title="Contenido semana 9" />
+        </List.Accordion>
+
+        <List.Accordion
+          title="Semana 10"
+          left={(props) => <List.Icon {...props} icon="book" />}
+          expanded={lunchExpanded}
+          onPress={() => setLunchExpanded(!lunchExpanded)}
+        >
+          <List.Item title="Contenido semana 10" />
+        </List.Accordion>
+
+        <List.Accordion
+          title="Semana 11"
+          left={(props) => <List.Icon {...props} icon="book" />}
+          expanded={lunchExpanded}
+          onPress={() => setLunchExpanded(!lunchExpanded)}
+        >
+          <List.Item title="Contenido semana 11" />
+        </List.Accordion>
+
+
       </ScrollView>
     </SafeArea>
   );
