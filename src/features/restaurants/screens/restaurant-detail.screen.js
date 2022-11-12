@@ -18,9 +18,7 @@ export const RestaurantDetailScreen = ({ route }) => {
   const [semana9Expanded, setSemana9Expanded] = useState(false);
   const [semana10Expanded, setSemana10Expanded] = useState(false);
   const [semana11Expanded, setSemana11Expanded] = useState(false);
-  const [lunchExpanded, setLunchExpanded] = useState(false);
-  const [dinnerExpanded, setDinnerExpanded] = useState(false);
-  const [drinksExpanded, setDrinksExpanded] = useState(false);
+  const [evaluacionExpanded, setEvaluacionExpanded] = useState(false);
 
   const { restaurant } = route.params;
   return (
@@ -33,7 +31,13 @@ export const RestaurantDetailScreen = ({ route }) => {
           expanded={semana1Expanded}
           onPress={() => setSemana1Expanded(!semana1Expanded)}
         >
-          <List.Item title="Contenido semana 1" />
+        <List.Item title="Contenido semana 1" />
+        <List.Item
+            title="First Item"
+            description="Item description"
+            left={props => <List.Icon {...props} icon="folder" />}
+        />
+
         </List.Accordion>
 
         <List.Accordion
@@ -125,6 +129,16 @@ export const RestaurantDetailScreen = ({ route }) => {
         >
           <List.Item title="Contenido semana 11" />
         </List.Accordion>
+
+        <List.Accordion
+          title="Evaluacion"
+          left={(props) => <List.Icon {...props} icon="book" />}
+          expanded={evaluacionExpanded}
+          onPress={() => setEvaluacionExpanded(!evaluacionExpanded)}
+        >
+          <List.Item title="Contenido de evaluacion" />
+        </List.Accordion>
+
       </ScrollView>
     </SafeArea>
   );
