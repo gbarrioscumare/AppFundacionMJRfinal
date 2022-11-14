@@ -21,7 +21,7 @@
           }
         },
         "icon": "https://uxwing.com/wp-content/themes/uxwing/download/education-school/read-book-icon.png",
-        "name": "Curso 1",
+        "name": "Curso 1: Madres y padres en periodo de gestacion",
         "opening_hours": {
           "open_now": true
         },
@@ -53,7 +53,7 @@
           "establishment"
         ],
         "user_ratings_total": 1675,
-        "vicinity": "Breve descripcion del curso"
+        "vicinity": "Curso dirigido a ayudar a las madres y padres mientras se encuentran en periodo de gestacion."
       },
       {
         "business_status": "OPERATIONAL",
@@ -74,7 +74,7 @@
           }
         },
         "icon": "https://uxwing.com/wp-content/themes/uxwing/download/education-school/read-book-icon.png",
-        "name": "Curso 2",
+        "name": "Curso 2: madres y padres con hijos entre 1 y 2 años",
         "opening_hours": {
           "open_now": true
         },
@@ -104,7 +104,7 @@
           "establishment"
         ],
         "user_ratings_total": 4404,
-        "vicinity": "Breve descripcion del curso"
+        "vicinity": "Curso dirigido a ayudar a las madres y padres con hijos entre 1 y 2 años."
       },
       {
         "business_status": "OPERATIONAL",
@@ -125,7 +125,7 @@
           }
         },
         "icon": "https://uxwing.com/wp-content/themes/uxwing/download/education-school/read-book-icon.png",
-        "name": "Curso 3",
+        "name": "Curso 3: Madres y padres con hijos entre 3 y 4 años",
         "opening_hours": {
           "open_now": false
         },
@@ -158,7 +158,7 @@
           "establishment"
         ],
         "user_ratings_total": 1284,
-        "vicinity": "Breve descripcion del curso"
+        "vicinity": "Curso dirigido a ayudar a las madres y padres con hijos entre 3 y 4 años."
       }       
     ],
     "status": "OK"
