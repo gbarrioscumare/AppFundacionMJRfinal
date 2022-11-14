@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
   },
   logo: {
     width: 380,
-    height: 230,
+    height: 150,
   },
 });
 
@@ -36,7 +36,7 @@ export const AccountScreen = ({ navigation }) => {
           source={require("../../../../assets/logo.png")}
         />
       </AnimationWrapper>
-      <Title>Bienvenido/a a la Fundacion Maria Jose Reyes</Title>
+      <Title>Bienvenidos al Programa de Habilidades Parentales de la Fundación María José Reyes</Title>
       <AccountContainer>
         <AuthButton
           icon="lock-open-outline"
