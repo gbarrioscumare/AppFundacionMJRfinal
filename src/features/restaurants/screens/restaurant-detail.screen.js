@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Image, StyleSheet } from "react-native";
+import { Image, StyleSheet, Text } from "react-native";
 import { ScrollView } from "react-native";
 import { List } from "react-native-paper";
 
@@ -43,82 +43,142 @@ export const RestaurantDetailScreen = ({ route }) => {
     <SafeArea>
       <RestaurantInfoCard restaurant={restaurant} />
       <ScrollView>
-      <List.Accordion
-          theme={{ colors: { primary: '#ffc93b' } }}
-          title="Evaluacion inicial del curso"
-          left={(props) => <List.Icon {...props} icon="school" />}
-          expanded={semana0Expanded}
-          onPress={() => setSemana0Expanded(!semana0Expanded)}
-        >
-        </List.Accordion>
+       {
+        restaurant.acordiones.map(obj => {
+          return (
+            <>
+            <List.Accordion
+            theme={{ colors: { primary: '#ffc93b' } }}
+            title={obj.seccion1}
+            left={(props) => <List.Icon {...props} icon={"school"} />}
+            expanded={semana0Expanded}
+            onPress={() => setSemana0Expanded(!semana0Expanded)}
+            >
+              <Text>{obj.evaluacionInicial}</Text>
+              <LinkingUrl url={obj.evaluacionInicialURL} message={obj.evaluacionInicialMensaje} color={obj.evaluacionInicialColor} bgcolor={obj.evaluacionInicialBgcolor}/>
+              <LinkingUrl url={obj.encuestaInicialURL} message={obj.encuestaInicialMensaje} color={obj.encuestaInicialColor} bgcolor={obj.encuestaInicialBgcolor}/>
+            </List.Accordion>
 
-        <List.Accordion
-          theme={{ colors: { primary: '#ffc93b' } }}
-          title="Tema 1: Habilidades Vinculares"
-          left={(props) => <List.Icon {...props} icon="school"/>}
-          expanded={semana1Expanded}
-          onPress={() => setSemana1Expanded(!semana1Expanded)}
-        >
-          <LinkingUrl url={"https://pdfhost.io/v/q0usTWeZe_Curso_1_Mensaje_1_FMJR_Mensajes_Habilidades_Parentales_2022"} message={"Mensaje 1.pdf"} color="white" bgcolor="#ffa500"/>
-          <LinkingUrl url={"https://pdfhost.io/v/YJCH0tjGR_Curso_1_Mensaje_2_FMJR_Mensajes_Habilidades_Parentales_2022"} message={"Mensaje 2.pdf"} color="white" bgcolor="#ffa500"/>
-          <LinkingUrl url={"https://pdfhost.io/v/~CWlEUSGB_Curso_1_Mensaje_3_FMJR_Mensajes_Habilidades_Parentales_2022"} message={"Mensaje 3.pdf"} color="white" bgcolor="#ffa500"/>
-          
-        </List.Accordion>
+            <List.Accordion
+            theme={{ colors: { primary: '#ffc93b' } }}
+            title={obj.seccion2}
+            left={(props) => <List.Icon {...props} icon={"school"}/>}
+            expanded={semana1Expanded}
+            onPress={() => setSemana1Expanded(!semana1Expanded)}
+            >
+              <Text>{obj.descripcion1}</Text>
+              <Text></Text>
+              <Text></Text>
+              <Text>{obj.semana1}</Text>
+              <LinkingUrl url={obj.semana1Url1} message={obj.semana1Mensaje1} color={obj.semana1Color1} bgcolor={obj.semana1Bgcolor1}/>
+              <LinkingUrl url={obj.semana1Ur2} message={obj.semana1Mensaje2} color={obj.semana1Color2} bgcolor={obj.semana1Bgcolor2}/>
+              <LinkingUrl url={obj.semana1Ur3} message={obj.semana1Mensaje3} color={obj.semana1Color3} bgcolor={obj.semana1Bgcolor3}/>
+              <LinkingUrl url={obj.semana1Ur4} message={obj.semana1Mensaje4} color={obj.semana1Color4} bgcolor={obj.semana1Bgcolor4}/>
+              <LinkingUrl url={obj.semana1Ur5} message={obj.semana1Mensaje5} color={obj.semana1Color5} bgcolor={obj.semana1Bgcolor5}/>
+            </List.Accordion>
 
-        <List.Accordion
+            <List.Accordion
           theme={{ colors: { primary: '#ffc93b' } }}
-          title="Tema 2: Lectura Vincular"
+          title={obj.seccion3}
           left={(props) => <List.Icon {...props} icon="school" />}
           expanded={semana2Expanded}
           onPress={() => setSemana2Expanded(!semana2Expanded)}
-        >
-          <LinkingUrl url={"https://pdfhost.io/v/j6Jld.1HQ_Curso_1_Mensaje_4_FMJR_Mensajes_Habilidades_Parentales_2022"} message={"Mensaje 4.pdf"} color="white" bgcolor="#ffa500"/>
-          <LinkingUrl url={"https://pdfhost.io/v/8MOW1hw9L_Curso_1_Cuento_1_FMJR"} message={"Cuento 1.pdf"} color="white" bgcolor="#ffa500"/>
-
+          >
+              <Text>{obj.descripcion2}</Text>
+              <Text></Text>
+              <Text></Text>
+              <Text>{obj.semana2}</Text>
+              <LinkingUrl url={obj.semana2Url1} message={obj.semana2Mensaje1} color={obj.semana2Color1} bgcolor={obj.semana2Bgcolor1}/>
+              <LinkingUrl url={obj.semana2Url2} message={obj.semana2Mensaje2} color={obj.semana2Color2} bgcolor={obj.semana2Bgcolor2}/>
+              <LinkingUrl url={obj.semana2Url3} message={obj.semana2Mensaje3} color={obj.semana2Color3} bgcolor={obj.semana2Bgcolor3}/>
+              <LinkingUrl url={obj.semana2Url4} message={obj.semana2Mensaje4} color={obj.semana2Color4} bgcolor={obj.semana2Bgcolor4}/>
+              <LinkingUrl url={obj.semana2Url5} message={obj.semana2Mensaje5} color={obj.semana2Color5} bgcolor={obj.semana2Bgcolor5}/>
+              <Text></Text>
+              <Text>{obj.semana3}</Text>
+              <Text></Text>
+              <LinkingUrl url={obj.semana3Url1} message={obj.semana3Mensaje1} color={obj.semana3Color1} bgcolor={obj.semana3Bgcolor1}/>
+              <LinkingUrl url={obj.semana3Url2} message={obj.semana3Mensaje2} color={obj.semana3Color2} bgcolor={obj.semana3Bgcolor2}/>
+              <LinkingUrl url={obj.semana3Url3} message={obj.semana3Mensaje3} color={obj.semana3Color3} bgcolor={obj.semana3Bgcolor3}/>
+              <LinkingUrl url={obj.semana3Url4} message={obj.semana3Mensaje4} color={obj.semana3Color4} bgcolor={obj.semana3Bgcolor4}/>
         </List.Accordion>
 
         <List.Accordion
           theme={{ colors: { primary: '#ffc93b' } }}
-          title="Tema 3: Habilidades Protectoras"
+          title={obj.seccion4}
           left={(props) => <List.Icon {...props} icon="school" />}
           expanded={semana3Expanded}
           onPress={() => setSemana3Expanded(!semana3Expanded)}
         >
-          <LinkingUrl url={"https://pdfhost.io/v/m6kTGFFDh_Curso_1_Mensaje_5_FMJR_Mensajes_Habilidades_Parentales_2022"} message={"Mensaje 5.pdf"} color="white" bgcolor="#ffa500"/>
-          <LinkingUrl url={"https://pdfhost.io/v/uYZqrb2Ax_Curso_1_Mensaje_6_FMJR_Mensajes_Habilidades_Parentales_2022"} message={"Mensaje 6.pdf"} color="white" bgcolor="#ffa500"/>
-
+          <Text>{obj.descripcion3}</Text>
+          <Text></Text>
+          <Text></Text>
+          <Text>{obj.semana4}</Text>
+              <LinkingUrl url={obj.semana4Url1} message={obj.semana4Mensaje1} color={obj.semana4Color1} bgcolor={obj.semana4Bgcolor1}/>
+              <LinkingUrl url={obj.semana4Url2} message={obj.semana4Mensaje2} color={obj.semana4Color2} bgcolor={obj.semana4Bgcolor2}/>
+              <LinkingUrl url={obj.semana4Url3} message={obj.semana4Mensaje3} color={obj.semana4Color3} bgcolor={obj.semana4Bgcolor3}/>
+              <LinkingUrl url={obj.semana4Url4} message={obj.semana4Mensaje4} color={obj.semana4Color4} bgcolor={obj.semana4Bgcolor4}/>
+              <LinkingUrl url={obj.semana4Url5} message={obj.semana4Mensaje5} color={obj.semana4Color5} bgcolor={obj.semana4Bgcolor5}/>
+          <Text></Text>
+          <Text>{obj.semana5}</Text>
+          <Text></Text>
+              <LinkingUrl url={obj.semana5Url1} message={obj.semana5Mensaje1} color={obj.semana5Color1} bgcolor={obj.semana5Bgcolor1}/>
+              <LinkingUrl url={obj.semana5url2} message={obj.semana5Mensaje2} color={obj.semana5Color2} bgcolor={obj.semana5Bgcolor2}/>
+              <LinkingUrl url={obj.semana5Url3} message={obj.semana5Mensaje3} color={obj.semana5Color3} bgcolor={obj.semana5Bgcolor3}/>
+              <LinkingUrl url={obj.semana5Url4} message={obj.semana5Mensaje4} color={obj.semana5Color4} bgcolor={obj.semana5Bgcolor4}/>
+              <LinkingUrl url={obj.semana5Url5} message={obj.semana5Mensaje5} color={obj.semana5Color5} bgcolor={obj.semana5Bgcolor5}/>
         </List.Accordion>
 
         <List.Accordion
           theme={{ colors: { primary: '#ffc93b' } }}
-          title="Tema 4: Habilidades reflexivas"
+          title={obj.seccion5}
           left={(props) => <List.Icon {...props} icon="school" />}
           expanded={semana4Expanded}
           onPress={() => setSemana4Expanded(!semana4Expanded)}
         >
-          <LinkingUrl url={"https://pdfhost.io/v/VN6IPaxGO_Curso_1_Mensaje_7_FMJR_Mensajes_Habilidades_Parentales_2022"} message={"Mensaje 7.pdf"} color="white" bgcolor="#ffa500"/>
-          <LinkingUrl url={"https://pdfhost.io/v/ySq4wNHe~_Curso_1_Mensaje_8_FMJR_Mensajes_Habilidades_Parentales_2022"} message={"Mensaje 8.pdf"} color="white" bgcolor="#ffa500"/>
-
+          <Text>{obj.descripcion4}</Text>
+          <Text></Text>
+          <Text></Text>
+          <Text>{obj.semana6}</Text>
+              <LinkingUrl url={obj.semana6Url1} message={obj.semana6Mensaje1} color={obj.semana6Color1} bgcolor={obj.semana6Bgcolor1}/>
+              <LinkingUrl url={obj.semana6Url2} message={obj.semana6Mensaje2} color={obj.semana6Color2} bgcolor={obj.semana6Bgcolor2}/>
+              <LinkingUrl url={obj.semana6Url3} message={obj.semana6Mensaje3} color={obj.semana6Color3} bgcolor={obj.semana6Bgcolor3}/>
+              <LinkingUrl url={obj.semana6Url4} message={obj.semana6Mensaje4} color={obj.semana6Color4} bgcolor={obj.semana6Bgcolor4}/>
+              <LinkingUrl url={obj.semana6Url5} message={obj.semana6Mensaje5} color={obj.semana6Color5} bgcolor={obj.semana6Bgcolor5}/>
+              <LinkingUrl url={obj.semana6Url6} message={obj.semana6Mensaje6} color={obj.semana6Color6} bgcolor={obj.semana6Bgcolor6}/>
         </List.Accordion>
 
         <List.Accordion
           theme={{ colors: { primary: '#ffc93b' } }}
-          title="Tema 5: Habilidades formativas"
+          title={obj.seccion6}
           left={(props) => <List.Icon {...props} icon="school" />}
           expanded={semana5Expanded}
           onPress={() => setSemana5Expanded(!semana5Expanded)}
         >
+          <Text>{obj.descripcion5}</Text>
+          <Text></Text>
+          <Text></Text>
+          <Text>{obj.semana7}</Text>
+              <LinkingUrl url={obj.semana7Url1} message={obj.semana7Mensaje1} color={obj.semana7Color1} bgcolor={obj.semana7Bgcolor1}/>
         </List.Accordion>
 
         <List.Accordion
           theme={{ colors: { primary: '#ffc93b' } }}
-          title="Evaluacion final del curso"
+          title={obj.seccion7}
           left={(props) => <List.Icon {...props} icon="school" />}
           expanded={semana6Expanded}
           onPress={() => setSemana6Expanded(!semana6Expanded)}
         >
+          <Text>{obj.evaluacionFinal}</Text>
+              <LinkingUrl url={obj.evaluacionFinalURL} message={obj.evaluacionFinalMensaje} color={obj.evaluacionFinalColor} bgcolor={obj.evaluacionFinalBgcolor}/>
+              <LinkingUrl url={obj.encuestaFinalURL} message={obj.encuestaFinalMensaje} color={obj.encuestaFinalColor} bgcolor={obj.encuestaFinalBgcolor}/>
+              <LinkingUrl url={obj.encuestaFinaldosURL} message={obj.encuestaFinaldosMensaje} color={obj.encuestaFinaldosColor} bgcolor={obj.encuestaFinaldosBgcolor}/>
         </List.Accordion>
+          </>
+          )
+        })
 
+       } 
+      
       </ScrollView>
     </SafeArea>
   );

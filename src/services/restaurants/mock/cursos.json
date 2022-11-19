@@ -21,24 +21,233 @@
           }
         },
         "icon": "https://uxwing.com/wp-content/themes/uxwing/download/education-school/read-book-icon.png",
-        "name": "Curso 1: Madres y padres en periodo de gestacion",
+        "name": "Curso 1: Madres y padres en periodo de gestacion.",
         "opening_hours": {
           "open_now": true
         },
         "photos": [
           {
-            "height": 3672,
+            "height": 1000,
             "html_attributions": [
               ""
             ],
             "photo_reference": "",
-            "width": 6786
+            "width": 1
+          }
+        ],
+        "acordiones":[
+          {
+            "seccion1": "Evaluacion inicial del curso",
+            "seccion2": "Tema 1: Habilidades Vinculares",
+            "seccion3": "Tema 2: Lectura Vincular",
+            "seccion4": "Tema 3: Habilidades Protectoras",
+            "seccion5": "Tema 4: Habilidades reflexivas",
+            "seccion6": "Tema 5: Habilidades formativas",
+            "seccion7": "Evaluacion final del curso",
+            "descripcion1":"Esta habilidad hace referencia a la importancia de generar acciones orientadas a potenciar la conexión emocional y generar un apego seguro en el hijo o hija.",
+            "descripcion2":"Esta habilidad busca favorecer el vínculo positivo madre-padre-hijo/a, a través de la lectura de cuentos.",
+            "descripcion3":"Esta habilidad hace referencia a la importancia de generar acciones orientadas a cuidarse para cuidar y proteger al bebé que viene en camino.",
+            "descripcion4":"Esta habilidad hace referencia a la capacidad para pensar sobre las propias experiencias como hija o hijo, su influencia y el proyecto familiar que se quiere crear.",
+            "descripcion5":"Esta habilidad hace referencia a las prácticas cotidianas de crianza, estimulación del aprendizaje y socialización.",
+            "semana1Comp": "<List.Item title=\"Semana 1 prueba\"/>",
+
+            "evaluacionInicial": " Evaluacion inicial y bienvenida del curso.",
+            "evaluacionInicialURL": "https://pdfhost.io/v/.1.Ki55HA_Mensaje_Inicial_FMJR",
+            "evaluacionInicialMensaje":"Bienvenida",
+            "evaluacionInicialColor": "white",
+            "evaluacionInicialBgcolor" :"#ffa500",
+
+            "encuestaInicial": " Evaluacion inicial del curso",
+            "encuestaInicialURL": "https://docs.google.com/forms/d/e/1FAIpQLSdiBBw6JGImnIlZvcMBlr0JvFH58BWMsv5ZSvbCkeNfaTR_sA/viewform",
+            "encuestaInicialMensaje":"Evaluacion Inicial",
+            "encuestaInicialColor": "white",
+            "encuestaInicialBgcolor" :"#67B7D1",
+
+            "semana1": "Semana 1",
+            "semana1Url1": "https://youtu.be/4ByoTM-Edyw",
+            "semana1Mensaje1": "Capsula 1 (Video)",
+            "semana1Color1": "white",
+            "semana1Bgcolor1" : "#ffa500",
+
+            "semana1Url2": "https://pdfhost.io/v/q0usTWeZe_Curso_1_Mensaje_1_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana1Mensaje2": "Mensaje 1.pdf",
+            "semana1Color2": "white",
+            "semana1Bgcolor2" : "#ffa500",
+
+            "semana1Url3": "https://pdfhost.io/v/YJCH0tjGR_Curso_1_Mensaje_2_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana1Mensaje3": "Mensaje 2.pdf",
+            "semana1Color3": "white",
+            "semana1Bgcolor3" : "#ffa500",
+
+            "semana1Url4": "https://youtu.be/jy9AWZfxJps",
+            "semana1Mensaje4": "Capsula 2 (Video)",
+            "semana1Color4": "white",
+            "semana1Bgcolor4" : "#ffa500",
+
+            "semana1Url5": "https://pdfhost.io/v/~CWlEUSGB_Curso_1_Mensaje_3_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana1Mensaje5": "Mensaje 3.pdf",
+            "semana1Color5": "white",
+            "semana1Bgcolor5" : "#ffa500",
+
+            "semana2": "Semana 2",
+            "semana2Url1": "https://youtu.be/B5-CpDbG0H",
+            "semana2Mensaje1": "Capsula 3 (Video)",
+            "semana2Color1": "white",
+            "semana2Bgcolor1" : "#ffa500",
+
+            "semana2Url2": "https://pdfhost.io/v/8MOW1hw9L_Curso_1_Cuento_1_FMJR",
+            "semana2Mensaje2": "Cuento 1.pdf",
+            "semana2Color2": "white",
+            "semana2Bgcolor2" : "#ffa500",
+
+            "semana2Url3": "https://pdfhost.io/v/j6Jld.1HQ_Curso_1_Mensaje_4_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana2Mensaje3": "Mensaje 4.pdf",
+            "semana2Color3": "white",
+            "semana2Bgcolor3" : "#ffa500",
+
+            "semana2Url4": "https://ibb.co/D7snBr3",
+            "semana2Mensaje4": "Conectividad cerebral 1",
+            "semana2Color4": "white",
+            "semana2Bgcolor4" : "#67B7D1",
+
+            "semana2Url5": "https://pdfhost.io/v/~CWlEUSGB_Curso_1_Mensaje_3_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana2Mensaje5": "Conectividad cerebral 2",
+            "semana2Color5": "white",
+            "semana2Bgcolor5" : "#67B7D1",
+
+            "semana3": "Semana 3",
+            "semana3Url1": "https://youtu.be/WpsRnCo3qGY",
+            "semana3Mensaje1": "Capsula 4 (Video)",
+            "semana3Color1": "white",
+            "semana3Bgcolor1" : "#ffa500",
+
+            "semana3Url2": "https://pdfhost.io/v/m6kTGFFDh_Curso_1_Mensaje_5_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana3Mensaje2": "Mensaje 5.pdf",
+            "semana3Color2": "white",
+            "semana3Bgcolor2" : "#ffa500",
+
+            "semana3Url3": "https://youtu.be/QFFb6wtxUNk",
+            "semana3Mensaje3": "Capsula 5 (Video)",
+            "semana3Color3": "white",
+            "semana3Bgcolor3" : "#ffa500",
+
+            "semana3Url4": "https://pdfhost.io/v/uYZqrb2Ax_Curso_1_Mensaje_6_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana3Mensaje4": "Mensaje 6.pdf",
+            "semana3Color4": "white",
+            "semana3Bgcolor4" : "#ffa500",
+
+            "semana4": "Semana 4",
+            "semana4Url1": "https://youtu.be/qklXDGJUvzQ",
+            "semana4Mensaje1": "Capsula 6 (Video)",
+            "semana4Color1": "white",
+            "semana4Bgcolor1" : "#ffa500",
+
+            "semana4Url2": "https://pdfhost.io/v/VN6IPaxGO_Curso_1_Mensaje_7_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana4Mensaje2": "Mensaje 7.pdf",
+            "semana4Color2": "white",
+            "semana4Bgcolor2" : "#ffa500",
+
+            "semana4Url3": "https://pdfhost.io/v/ySq4wNHe~_Curso_1_Mensaje_8_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana4Mensaje3": "Mensaje 8.pdf",
+            "semana4Color3": "white",
+            "semana4Bgcolor3" : "#ffa500",
+
+            "semana4Url4": "https://pdfhost.io/v/TnWi7Pjqp_Curso_1_Mensaje_9_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana4Mensaje4": "Mensaje 9.pdf",
+            "semana4Color4": "white",
+            "semana4Bgcolor4" : "#ffa500",
+
+            "semana4Url5": "https://pdfhost.io/v/k1Deoke61_Curso_1_Mensaje_10_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana4Mensaje5": "Mensaje 10.pdf",
+            "semana4Color5": "white",
+            "semana4Bgcolor5" : "#ffa500",
+
+            "semana5": "Semana 5",
+            "semana5Url1": "https://youtu.be/8QM22Mfl6LA",
+            "semana5Mensaje1": "Capsula 7 (Video)",
+            "semana5Color1": "white",
+            "semana5Bgcolor1" : "#ffa500",
+
+            "semana5Url2": "https://pdfhost.io/v/a2pKoZ5Xm_Curso_1_Mensaje_11_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana5Mensaje2": "Mensaje 11.pdf",
+            "semana5Color2": "white",
+            "semana5Bgcolor2" : "#ffa500",
+
+            "semana5Url3": "https://pdfhost.io/v/LyqG5cC3G_Curso_1_Mensaje_12_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana5Mensaje3": "Mensaje 12.pdf",
+            "semana5Color3": "white",
+            "semana5Bgcolor3" : "#ffa500",
+
+            "semana5Url4": "https://youtu.be/laFHdBYKNzM",
+            "semana5Mensaje4": "Capsula 8 (Video)",
+            "semana5Color4": "white",
+            "semana5Bgcolor4" : "#ffa500",
+
+            "semana5Url5": "https://pdfhost.io/v/JYPOQEHOl_Curso_1_Mensaje_13_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana5Mensaje5": "Mensaje 13.pdf",
+            "semana5Color5": "white",
+            "semana5Bgcolor5" : "#ffa500",
+
+            "semana6": "Semana 6",
+            "semana6Url1": "https://youtu.be/UD4BSsi5yNM",
+            "semana6Mensaje1": "Capsula 9 (Video)",
+            "semana6Color1": "white",
+            "semana6Bgcolor1" : "#ffa500",
+
+            "semana6Url2": "https://pdfhost.io/v/7VzuHUEjo_Curso_1_Mensaje_14_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana6Mensaje2": "Mensaje 14.pdf",
+            "semana6Color2": "white",
+            "semana6Bgcolor2" : "#ffa500",
+
+            "semana6Url3": "https://pdfhost.io/v/0RFthRIAB_Curso_1_Semaforo_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana6Mensaje3": "Semaforo.pdf",
+            "semana6Color3": "white",
+            "semana6Bgcolor3" : "#67B7D1",
+
+            "semana6Url4": "https://youtu.be/wMV4pvIrLyQ",
+            "semana6Mensaje4": "Capsula 10 (Video)",
+            "semana6Color4": "white",
+            "semana6Bgcolor4" : "#ffa500",
+
+            "semana6Url5": "https://pdfhost.io/v/mwvsSIvoG_Curso_1_Mensaje_15_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana6Mensaje5": "Mensaje 15.pdf",
+            "semana6Color5": "white",
+            "semana6Bgcolor5" : "#ffa500",
+
+            "semana6Url6": "https://youtu.be/Vqn77hQX8N0",
+            "semana6Mensaje6": "Capsula 11 (Video)",
+            "semana6Color6": "white",
+            "semana6Bgcolor6" : "#ffa500",
+
+            "semana7": "Semana 7",
+            "semana7Url1": "https://pdfhost.io/v/Y.u6iVRp._Curso_1_Mensaje_16_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana7Mensaje1": "Mensaje 16 - Cierre",
+            "semana7Color1": "white",
+            "semana7Bgcolor1" : "#ffa500",
+
+            "evaluacionFinal": "Muchas felicidades por completar nuestro curso! por favor lea nuestro mensaje final del curso y responda nuestras dos encuestas finales muchas gracias!",
+            "evaluacionFinalURL": "https://pdfhost.io/v/DdtRxheGg_Mensaje_Final_FMJR",
+            "evaluacionFinalMensaje":"Mensaje Final",
+            "evaluacionFinalColor": "white",
+            "evaluacionFinalBgcolor" :"#ffa500",
+
+            "encuestaFinal": " Evaluacion final del curso",
+            "encuestaFinalURL": "https://docs.google.com/forms/d/e/1FAIpQLSf1qCT8pR95caA1jHScWPFmDQwVHygICZGqvkPCIQrZTffM5g/viewform",
+            "encuestaFinalMensaje":"Evaluacion Final",
+            "encuestaFinalColor": "white",
+            "encuestaFinalBgcolor" :"#67B7D1",
+
+            "encuestaFinaldos": "Evaluacion final del curso",
+            "encuestaFinaldosURL": "https://docs.google.com/forms/d/e/1FAIpQLSerg5faXaoAs3eLK4lThwCo1Hrz-hpzw9NVl8bAbFrxhONNsg/viewform",
+            "encuestaFinaldosMensaje":"Encuesta de satisfacción",
+            "encuestaFinaldosColor": "white",
+            "encuestaFinaldosBgcolor" :"#67B7D1"
           }
         ],
         "place_id": "some place id 41",
         "plus_code": {
           "compound_code": "",
-          "global_code": "",
+          "global_code": ""
         },
         "price_level": 3,
         "rating": 4.4,
@@ -74,7 +283,7 @@
           }
         },
         "icon": "https://uxwing.com/wp-content/themes/uxwing/download/education-school/read-book-icon.png",
-        "name": "Curso 2: madres y padres con hijos entre 1 y 2 años",
+        "name": "Curso 2: madres y padres con hijos entre 1 y 2 años.",
         "opening_hours": {
           "open_now": true
         },
@@ -88,10 +297,220 @@
             "width": 4128
           }
         ],
+        "acordiones":[
+          {
+            
+            "seccion1": "Evaluacion inicial del curso",
+            "seccion2": "Tema 1: Habilidades Vinculares",
+            "seccion3": "Tema 2: Lectura Vincular",
+            "seccion4": "Tema 3: Habilidades Protectoras",
+            "seccion5": "Tema 4: Habilidades reflexivas",
+            "seccion6": "Tema 5: Habilidades formativas",
+            "seccion7": "Evaluacion final del curso",
+            "descripcion1":"Esta habilidad hace referencia a la importancia de generar acciones orientadas a potenciar la conexión emocional y generar un apego seguro en el hijo o hija.",
+            "descripcion2":"Esta habilidad busca favorecer el vínculo positivo madre-padre-hijo/a, a través de la lectura de cuentos.",
+            "descripcion3":"Esta habilidad hace referencia a la importancia de generar acciones orientadas a cuidarse para cuidar y proteger al bebé que viene en camino.",
+            "descripcion4":"Esta habilidad hace referencia a la capacidad para pensar sobre las propias experiencias como hija o hijo, su influencia y el proyecto familiar que se quiere crear.",
+            "descripcion5":"Esta habilidad hace referencia a las prácticas cotidianas de crianza, estimulación del aprendizaje y socialización.",
+            "semana1Comp": "<List.Item title=\"Semana 1 prueba\"/>",
+
+            "evaluacionInicial": " Evaluacion inicial y bienvenida del curso.",
+            "evaluacionInicialURL": "https://pdfhost.io/v/.1.Ki55HA_Mensaje_Inicial_FMJR",
+            "evaluacionInicialMensaje":"Bienvenida",
+            "evaluacionInicialColor": "white",
+            "evaluacionInicialBgcolor" :"#ffa500",
+
+            "encuestaInicial": " Evaluacion inicial del curso",
+            "encuestaInicialURL": "https://docs.google.com/forms/d/e/1FAIpQLSdiBBw6JGImnIlZvcMBlr0JvFH58BWMsv5ZSvbCkeNfaTR_sA/viewform",
+            "encuestaInicialMensaje":"Evaluacion Inicial",
+            "encuestaInicialColor": "white",
+            "encuestaInicialBgcolor" :"#67B7D1",
+
+            "semana1": "Semana 1",
+            "semana1Url1": "https://youtu.be/4ByoTM-Edyw",
+            "semana1Mensaje1": "Capsula 1 (Video)",
+            "semana1Color1": "white",
+            "semana1Bgcolor1" : "#ffa500",
+
+            "semana1Url2": "https://pdfhost.io/v/q0usTWeZe_Curso_1_Mensaje_1_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana1Mensaje2": "Mensaje 1.pdf",
+            "semana1Color2": "white",
+            "semana1Bgcolor2" : "#ffa500",
+
+            "semana1Url3": "https://pdfhost.io/v/YJCH0tjGR_Curso_1_Mensaje_2_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana1Mensaje3": "Mensaje 2.pdf",
+            "semana1Color3": "white",
+            "semana1Bgcolor3" : "#ffa500",
+
+            "semana1Url4": "https://youtu.be/jy9AWZfxJps",
+            "semana1Mensaje4": "Capsula 2 (Video)",
+            "semana1Color4": "white",
+            "semana1Bgcolor4" : "#ffa500",
+
+            "semana1Url5": "https://pdfhost.io/v/~CWlEUSGB_Curso_1_Mensaje_3_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana1Mensaje5": "Mensaje 3.pdf",
+            "semana1Color5": "white",
+            "semana1Bgcolor5" : "#ffa500",
+
+            "semana2": "Semana 2",
+            "semana2Url1": "https://youtu.be/B5-CpDbG0H",
+            "semana2Mensaje1": "Capsula 3 (Video)",
+            "semana2Color1": "white",
+            "semana2Bgcolor1" : "#ffa500",
+
+            "semana2Url2": "https://pdfhost.io/v/8MOW1hw9L_Curso_1_Cuento_1_FMJR",
+            "semana2Mensaje2": "Cuento 1.pdf",
+            "semana2Color2": "white",
+            "semana2Bgcolor2" : "#ffa500",
+
+            "semana2Url3": "https://pdfhost.io/v/j6Jld.1HQ_Curso_1_Mensaje_4_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana2Mensaje3": "Mensaje 4.pdf",
+            "semana2Color3": "white",
+            "semana2Bgcolor3" : "#ffa500",
+
+            "semana2Url4": "https://ibb.co/D7snBr3",
+            "semana2Mensaje4": "Conectividad cerebral 1",
+            "semana2Color4": "white",
+            "semana2Bgcolor4" : "#67B7D1",
+
+            "semana2Url5": "https://pdfhost.io/v/~CWlEUSGB_Curso_1_Mensaje_3_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana2Mensaje5": "Conectividad cerebral 2",
+            "semana2Color5": "white",
+            "semana2Bgcolor5" : "#67B7D1",
+
+            "semana3": "Semana 3",
+            "semana3Url1": "https://youtu.be/WpsRnCo3qGY",
+            "semana3Mensaje1": "Capsula 4 (Video)",
+            "semana3Color1": "white",
+            "semana3Bgcolor1" : "#ffa500",
+
+            "semana3Url2": "https://pdfhost.io/v/m6kTGFFDh_Curso_1_Mensaje_5_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana3Mensaje2": "Mensaje 5.pdf",
+            "semana3Color2": "white",
+            "semana3Bgcolor2" : "#ffa500",
+
+            "semana3Url3": "https://youtu.be/QFFb6wtxUNk",
+            "semana3Mensaje3": "Capsula 5 (Video)",
+            "semana3Color3": "white",
+            "semana3Bgcolor3" : "#ffa500",
+
+            "semana3Url4": "https://pdfhost.io/v/uYZqrb2Ax_Curso_1_Mensaje_6_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana3Mensaje4": "Mensaje 6.pdf",
+            "semana3Color4": "white",
+            "semana3Bgcolor4" : "#ffa500",
+
+            "semana4": "Semana 4",
+            "semana4Url1": "https://youtu.be/qklXDGJUvzQ",
+            "semana4Mensaje1": "Capsula 6 (Video)",
+            "semana4Color1": "white",
+            "semana4Bgcolor1" : "#ffa500",
+
+            "semana4Url2": "https://pdfhost.io/v/VN6IPaxGO_Curso_1_Mensaje_7_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana4Mensaje2": "Mensaje 7.pdf",
+            "semana4Color2": "white",
+            "semana4Bgcolor2" : "#ffa500",
+
+            "semana4Url3": "https://pdfhost.io/v/ySq4wNHe~_Curso_1_Mensaje_8_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana4Mensaje3": "Mensaje 8.pdf",
+            "semana4Color3": "white",
+            "semana4Bgcolor3" : "#ffa500",
+
+            "semana4Url4": "https://pdfhost.io/v/TnWi7Pjqp_Curso_1_Mensaje_9_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana4Mensaje4": "Mensaje 9.pdf",
+            "semana4Color4": "white",
+            "semana4Bgcolor4" : "#ffa500",
+
+            "semana4Url5": "https://pdfhost.io/v/k1Deoke61_Curso_1_Mensaje_10_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana4Mensaje5": "Mensaje 10.pdf",
+            "semana4Color5": "white",
+            "semana4Bgcolor5" : "#ffa500",
+
+            "semana5": "Semana 5",
+            "semana5Url1": "https://youtu.be/8QM22Mfl6LA",
+            "semana5Mensaje1": "Capsula 7 (Video)",
+            "semana5Color1": "white",
+            "semana5Bgcolor1" : "#ffa500",
+
+            "semana5Url2": "https://pdfhost.io/v/a2pKoZ5Xm_Curso_1_Mensaje_11_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana5Mensaje2": "Mensaje 11.pdf",
+            "semana5Color2": "white",
+            "semana5Bgcolor2" : "#ffa500",
+
+            "semana5Url3": "https://pdfhost.io/v/LyqG5cC3G_Curso_1_Mensaje_12_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana5Mensaje3": "Mensaje 12.pdf",
+            "semana5Color3": "white",
+            "semana5Bgcolor3" : "#ffa500",
+
+            "semana5Url4": "https://youtu.be/laFHdBYKNzM",
+            "semana5Mensaje4": "Capsula 8 (Video)",
+            "semana5Color4": "white",
+            "semana5Bgcolor4" : "#ffa500",
+
+            "semana5Url5": "https://pdfhost.io/v/JYPOQEHOl_Curso_1_Mensaje_13_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana5Mensaje5": "Mensaje 13.pdf",
+            "semana5Color5": "white",
+            "semana5Bgcolor5" : "#ffa500",
+
+            "semana6": "Semana 6",
+            "semana6Url1": "https://youtu.be/UD4BSsi5yNM",
+            "semana6Mensaje1": "Capsula 9 (Video)",
+            "semana6Color1": "white",
+            "semana6Bgcolor1" : "#ffa500",
+
+            "semana6Url2": "https://pdfhost.io/v/7VzuHUEjo_Curso_1_Mensaje_14_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana6Mensaje2": "Mensaje 14.pdf",
+            "semana6Color2": "white",
+            "semana6Bgcolor2" : "#ffa500",
+
+            "semana6Url3": "https://pdfhost.io/v/0RFthRIAB_Curso_1_Semaforo_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana6Mensaje3": "Semaforo.pdf",
+            "semana6Color3": "white",
+            "semana6Bgcolor3" : "#67B7D1",
+
+            "semana6Url4": "https://youtu.be/wMV4pvIrLyQ",
+            "semana6Mensaje4": "Capsula 10 (Video)",
+            "semana6Color4": "white",
+            "semana6Bgcolor4" : "#ffa500",
+
+            "semana6Url5": "https://pdfhost.io/v/mwvsSIvoG_Curso_1_Mensaje_15_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana6Mensaje5": "Mensaje 15.pdf",
+            "semana6Color5": "white",
+            "semana6Bgcolor5" : "#ffa500",
+
+            "semana6Url6": "https://youtu.be/Vqn77hQX8N0",
+            "semana6Mensaje6": "Capsula 11 (Video)",
+            "semana6Color6": "white",
+            "semana6Bgcolor6" : "#ffa500",
+
+            "semana7": "Semana 7",
+            "semana7Url1": "https://pdfhost.io/v/Y.u6iVRp._Curso_1_Mensaje_16_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana7Mensaje1": "Mensaje 16 - Cierre",
+            "semana7Color1": "white",
+            "semana7Bgcolor1" : "#ffa500",
+
+            "evaluacionFinal": "Muchas felicidades por completar nuestro curso! por favor lea nuestro mensaje final del curso y responda nuestras dos encuestas finales muchas gracias!",
+            "evaluacionFinalURL": "https://pdfhost.io/v/DdtRxheGg_Mensaje_Final_FMJR",
+            "evaluacionFinalMensaje":"Mensaje Final",
+            "evaluacionFinalColor": "white",
+            "evaluacionFinalBgcolor" :"#ffa500",
+
+            "encuestaFinal": " Evaluacion final del curso",
+            "encuestaFinalURL": "https://docs.google.com/forms/d/e/1FAIpQLSf1qCT8pR95caA1jHScWPFmDQwVHygICZGqvkPCIQrZTffM5g/viewform",
+            "encuestaFinalMensaje":"Evaluacion Final",
+            "encuestaFinalColor": "white",
+            "encuestaFinalBgcolor" :"#67B7D1",
+
+            "encuestaFinaldos": "Evaluacion final del curso",
+            "encuestaFinaldosURL": "https://docs.google.com/forms/d/e/1FAIpQLSerg5faXaoAs3eLK4lThwCo1Hrz-hpzw9NVl8bAbFrxhONNsg/viewform",
+            "encuestaFinaldosMensaje":"Encuesta de satisfacción",
+            "encuestaFinaldosColor": "white",
+            "encuestaFinaldosBgcolor" :"#67B7D1"
+          }
+        ],
         "place_id": "some place id 42",
         "plus_code": {
           "compound_code": "",
-          "global_code": "",
+          "global_code": ""
         },
         "price_level": 2,
         "rating": 4.5,
@@ -125,7 +544,7 @@
           }
         },
         "icon": "https://uxwing.com/wp-content/themes/uxwing/download/education-school/read-book-icon.png",
-        "name": "Curso 3: Madres y padres con hijos entre 3 y 4 años",
+        "name": "Curso 3: Madres y padres con hijos entre 3 y 4 años.",
         "opening_hours": {
           "open_now": false
         },
@@ -139,10 +558,220 @@
             "width": 1024
           }
         ],
+        "acordiones":[
+          {
+            
+            "seccion1": "Evaluacion inicial del curso",
+            "seccion2": "Tema 1: Habilidades Vinculares",
+            "seccion3": "Tema 2: Lectura Vincular",
+            "seccion4": "Tema 3: Habilidades Protectoras",
+            "seccion5": "Tema 4: Habilidades reflexivas",
+            "seccion6": "Tema 5: Habilidades formativas",
+            "seccion7": "Evaluacion final del curso",
+            "descripcion1":"Esta habilidad hace referencia a la importancia de generar acciones orientadas a potenciar la conexión emocional y generar un apego seguro en el hijo o hija.",
+            "descripcion2":"Esta habilidad busca favorecer el vínculo positivo madre-padre-hijo/a, a través de la lectura de cuentos.",
+            "descripcion3":"Esta habilidad hace referencia a la importancia de generar acciones orientadas a cuidarse para cuidar y proteger al bebé que viene en camino.",
+            "descripcion4":"Esta habilidad hace referencia a la capacidad para pensar sobre las propias experiencias como hija o hijo, su influencia y el proyecto familiar que se quiere crear.",
+            "descripcion5":"Esta habilidad hace referencia a las prácticas cotidianas de crianza, estimulación del aprendizaje y socialización.",
+            "semana1Comp": "<List.Item title=\"Semana 1 prueba\"/>",
+
+            "evaluacionInicial": " Evaluacion inicial y bienvenida del curso.",
+            "evaluacionInicialURL": "https://pdfhost.io/v/.1.Ki55HA_Mensaje_Inicial_FMJR",
+            "evaluacionInicialMensaje":"Bienvenida",
+            "evaluacionInicialColor": "white",
+            "evaluacionInicialBgcolor" :"#ffa500",
+
+            "encuestaInicial": " Evaluacion inicial del curso",
+            "encuestaInicialURL": "https://docs.google.com/forms/d/e/1FAIpQLSdiBBw6JGImnIlZvcMBlr0JvFH58BWMsv5ZSvbCkeNfaTR_sA/viewform",
+            "encuestaInicialMensaje":"Evaluacion Inicial",
+            "encuestaInicialColor": "white",
+            "encuestaInicialBgcolor" :"#67B7D1",
+
+            "semana1": "Semana 1",
+            "semana1Url1": "https://youtu.be/4ByoTM-Edyw",
+            "semana1Mensaje1": "Capsula 1 (Video)",
+            "semana1Color1": "white",
+            "semana1Bgcolor1" : "#ffa500",
+
+            "semana1Url2": "https://pdfhost.io/v/q0usTWeZe_Curso_1_Mensaje_1_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana1Mensaje2": "Mensaje 1.pdf",
+            "semana1Color2": "white",
+            "semana1Bgcolor2" : "#ffa500",
+
+            "semana1Url3": "https://pdfhost.io/v/YJCH0tjGR_Curso_1_Mensaje_2_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana1Mensaje3": "Mensaje 2.pdf",
+            "semana1Color3": "white",
+            "semana1Bgcolor3" : "#ffa500",
+
+            "semana1Url4": "https://youtu.be/jy9AWZfxJps",
+            "semana1Mensaje4": "Capsula 2 (Video)",
+            "semana1Color4": "white",
+            "semana1Bgcolor4" : "#ffa500",
+
+            "semana1Url5": "https://pdfhost.io/v/~CWlEUSGB_Curso_1_Mensaje_3_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana1Mensaje5": "Mensaje 3.pdf",
+            "semana1Color5": "white",
+            "semana1Bgcolor5" : "#ffa500",
+
+            "semana2": "Semana 2",
+            "semana2Url1": "https://youtu.be/B5-CpDbG0H",
+            "semana2Mensaje1": "Capsula 3 (Video)",
+            "semana2Color1": "white",
+            "semana2Bgcolor1" : "#ffa500",
+
+            "semana2Url2": "https://pdfhost.io/v/8MOW1hw9L_Curso_1_Cuento_1_FMJR",
+            "semana2Mensaje2": "Cuento 1.pdf",
+            "semana2Color2": "white",
+            "semana2Bgcolor2" : "#ffa500",
+
+            "semana2Url3": "https://pdfhost.io/v/j6Jld.1HQ_Curso_1_Mensaje_4_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana2Mensaje3": "Mensaje 4.pdf",
+            "semana2Color3": "white",
+            "semana2Bgcolor3" : "#ffa500",
+
+            "semana2Url4": "https://ibb.co/D7snBr3",
+            "semana2Mensaje4": "Conectividad cerebral 1",
+            "semana2Color4": "white",
+            "semana2Bgcolor4" : "#67B7D1",
+
+            "semana2Url5": "https://pdfhost.io/v/~CWlEUSGB_Curso_1_Mensaje_3_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana2Mensaje5": "Conectividad cerebral 2",
+            "semana2Color5": "white",
+            "semana2Bgcolor5" : "#67B7D1",
+
+            "semana3": "Semana 3",
+            "semana3Url1": "https://youtu.be/WpsRnCo3qGY",
+            "semana3Mensaje1": "Capsula 4 (Video)",
+            "semana3Color1": "white",
+            "semana3Bgcolor1" : "#ffa500",
+
+            "semana3Url2": "https://pdfhost.io/v/m6kTGFFDh_Curso_1_Mensaje_5_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana3Mensaje2": "Mensaje 5.pdf",
+            "semana3Color2": "white",
+            "semana3Bgcolor2" : "#ffa500",
+
+            "semana3Url3": "https://youtu.be/QFFb6wtxUNk",
+            "semana3Mensaje3": "Capsula 5 (Video)",
+            "semana3Color3": "white",
+            "semana3Bgcolor3" : "#ffa500",
+
+            "semana3Url4": "https://pdfhost.io/v/uYZqrb2Ax_Curso_1_Mensaje_6_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana3Mensaje4": "Mensaje 6.pdf",
+            "semana3Color4": "white",
+            "semana3Bgcolor4" : "#ffa500",
+
+            "semana4": "Semana 4",
+            "semana4Url1": "https://youtu.be/qklXDGJUvzQ",
+            "semana4Mensaje1": "Capsula 6 (Video)",
+            "semana4Color1": "white",
+            "semana4Bgcolor1" : "#ffa500",
+
+            "semana4Url2": "https://pdfhost.io/v/VN6IPaxGO_Curso_1_Mensaje_7_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana4Mensaje2": "Mensaje 7.pdf",
+            "semana4Color2": "white",
+            "semana4Bgcolor2" : "#ffa500",
+
+            "semana4Url3": "https://pdfhost.io/v/ySq4wNHe~_Curso_1_Mensaje_8_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana4Mensaje3": "Mensaje 8.pdf",
+            "semana4Color3": "white",
+            "semana4Bgcolor3" : "#ffa500",
+
+            "semana4Url4": "https://pdfhost.io/v/TnWi7Pjqp_Curso_1_Mensaje_9_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana4Mensaje4": "Mensaje 9.pdf",
+            "semana4Color4": "white",
+            "semana4Bgcolor4" : "#ffa500",
+
+            "semana4Url5": "https://pdfhost.io/v/k1Deoke61_Curso_1_Mensaje_10_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana4Mensaje5": "Mensaje 10.pdf",
+            "semana4Color5": "white",
+            "semana4Bgcolor5" : "#ffa500",
+
+            "semana5": "Semana 5",
+            "semana5Url1": "https://youtu.be/8QM22Mfl6LA",
+            "semana5Mensaje1": "Capsula 7 (Video)",
+            "semana5Color1": "white",
+            "semana5Bgcolor1" : "#ffa500",
+
+            "semana5Url2": "https://pdfhost.io/v/a2pKoZ5Xm_Curso_1_Mensaje_11_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana5Mensaje2": "Mensaje 11.pdf",
+            "semana5Color2": "white",
+            "semana5Bgcolor2" : "#ffa500",
+
+            "semana5Url3": "https://pdfhost.io/v/LyqG5cC3G_Curso_1_Mensaje_12_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana5Mensaje3": "Mensaje 12.pdf",
+            "semana5Color3": "white",
+            "semana5Bgcolor3" : "#ffa500",
+
+            "semana5Url4": "https://youtu.be/laFHdBYKNzM",
+            "semana5Mensaje4": "Capsula 8 (Video)",
+            "semana5Color4": "white",
+            "semana5Bgcolor4" : "#ffa500",
+
+            "semana5Url5": "https://pdfhost.io/v/JYPOQEHOl_Curso_1_Mensaje_13_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana5Mensaje5": "Mensaje 13.pdf",
+            "semana5Color5": "white",
+            "semana5Bgcolor5" : "#ffa500",
+
+            "semana6": "Semana 6",
+            "semana6Url1": "https://youtu.be/UD4BSsi5yNM",
+            "semana6Mensaje1": "Capsula 9 (Video)",
+            "semana6Color1": "white",
+            "semana6Bgcolor1" : "#ffa500",
+
+            "semana6Url2": "https://pdfhost.io/v/7VzuHUEjo_Curso_1_Mensaje_14_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana6Mensaje2": "Mensaje 14.pdf",
+            "semana6Color2": "white",
+            "semana6Bgcolor2" : "#ffa500",
+
+            "semana6Url3": "https://pdfhost.io/v/0RFthRIAB_Curso_1_Semaforo_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana6Mensaje3": "Semaforo.pdf",
+            "semana6Color3": "white",
+            "semana6Bgcolor3" : "#67B7D1",
+
+            "semana6Url4": "https://youtu.be/wMV4pvIrLyQ",
+            "semana6Mensaje4": "Capsula 10 (Video)",
+            "semana6Color4": "white",
+            "semana6Bgcolor4" : "#ffa500",
+
+            "semana6Url5": "https://pdfhost.io/v/mwvsSIvoG_Curso_1_Mensaje_15_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana6Mensaje5": "Mensaje 15.pdf",
+            "semana6Color5": "white",
+            "semana6Bgcolor5" : "#ffa500",
+
+            "semana6Url6": "https://youtu.be/Vqn77hQX8N0",
+            "semana6Mensaje6": "Capsula 11 (Video)",
+            "semana6Color6": "white",
+            "semana6Bgcolor6" : "#ffa500",
+
+            "semana7": "Semana 7",
+            "semana7Url1": "https://pdfhost.io/v/Y.u6iVRp._Curso_1_Mensaje_16_FMJR_Mensajes_Habilidades_Parentales_2022",
+            "semana7Mensaje1": "Mensaje 16 - Cierre",
+            "semana7Color1": "white",
+            "semana7Bgcolor1" : "#ffa500",
+
+            "evaluacionFinal": "Muchas felicidades por completar nuestro curso! por favor lea nuestro mensaje final del curso y responda nuestras dos encuestas finales muchas gracias!",
+            "evaluacionFinalURL": "https://pdfhost.io/v/DdtRxheGg_Mensaje_Final_FMJR",
+            "evaluacionFinalMensaje":"Mensaje Final",
+            "evaluacionFinalColor": "white",
+            "evaluacionFinalBgcolor" :"#ffa500",
+
+            "encuestaFinal": " Evaluacion final del curso",
+            "encuestaFinalURL": "https://docs.google.com/forms/d/e/1FAIpQLSf1qCT8pR95caA1jHScWPFmDQwVHygICZGqvkPCIQrZTffM5g/viewform",
+            "encuestaFinalMensaje":"Evaluacion Final",
+            "encuestaFinalColor": "white",
+            "encuestaFinalBgcolor" :"#67B7D1",
+
+            "encuestaFinaldos": "Evaluacion final del curso",
+            "encuestaFinaldosURL": "https://docs.google.com/forms/d/e/1FAIpQLSerg5faXaoAs3eLK4lThwCo1Hrz-hpzw9NVl8bAbFrxhONNsg/viewform",
+            "encuestaFinaldosMensaje":"Encuesta de satisfacción",
+            "encuestaFinaldosColor": "white",
+            "encuestaFinaldosBgcolor" :"#67B7D1"
+          }
+        ],
         "place_id": "some place id 43",
         "plus_code": {
           "compound_code": "",
-          "global_code": "",
+          "global_code": ""
         },
         "price_level": 2,
         "rating": 4.3,

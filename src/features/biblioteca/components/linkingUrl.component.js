@@ -4,10 +4,10 @@ import { Alert, Button, Linking, Platform, StyleSheet, Text, View } from "react-
 
 export const LinkingUrl = ({url, message, bgcolor, color}) => {
 
-    const openUrl = async (url1) => {
-        const isSupported = await Linking.canOpenURL(url1);
+    const openUrl = async (url) => {
+        const isSupported = await Linking.canOpenURL(url);
         if (isSupported) {
-            await Linking.openURL(url1);
+            await Linking.openURL(url);
         } else {
             Alert.alert(`Don't know how to open this url: ${url}`);
         }
@@ -18,7 +18,8 @@ export const LinkingUrl = ({url, message, bgcolor, color}) => {
             <View style={styles.buttonContainer} backgroundColor={bgcolor}>
                 <Button title={message} onPress={() => {
                     openUrl(url)
-                    }} color={color}/>
+                    }}
+                    style={{backgroundColor: "orange", color:"black"}}/>
 
             </View>
         </View>

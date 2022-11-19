@@ -12,7 +12,6 @@ export const AccountBackground = styled.ImageBackground.attrs({
   align-image: center-right;
   width: 100%;
   height: 100%;
-
 `;
 
 export const AccountCover = styled.View`
