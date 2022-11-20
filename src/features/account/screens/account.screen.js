@@ -22,7 +22,9 @@ const styles = StyleSheet.create({
   },
   logo: {
     width: 380,
-    height: 150,
+    height: 140,
+    marginTop: 5,
+    maxWidth:"78%"
   },
 });
 
@@ -36,7 +38,7 @@ export const AccountScreen = ({ navigation }) => {
           source={require("../../../../assets/logo.png")}
         />
       </AnimationWrapper>
-      <Title>Bienvenidos al Programa de Habilidades Parentales de la Fundación María José Reyes</Title>
+      <Title style={{alignItems: "center", maxWidth:"70%", marginBottom: "10%", marginTop: "20%" }}>Bienvenidos al Programa de Habilidades Parentales de la Fundación María José Reyes</Title>
       <AccountContainer>
         <AuthButton
           icon="lock-open-outline"
