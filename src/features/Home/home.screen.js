@@ -6,7 +6,8 @@ import { View,
     StyleSheet,
     Image,
     TouchableOpacity, 
-    FlatList
+    FlatList,
+    ScrollView
 } from "react-native"
 import { createAppContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -19,7 +20,7 @@ const Home = ({navigation}) => {
 
 
     return(
-            
+        <ScrollView>
             <View style={styles.container} >
                 <Text style={styles.title}>BIENVENIDO A LA APLICACION MJR</Text>
                 <Text style={styles.subtitle}>Hacer click en la imagen para ver el video introductorio</Text>
@@ -36,6 +37,7 @@ const Home = ({navigation}) => {
                 source={require('../../../assets/Logo_Home.png')}
                 />
             </View>
+        </ScrollView> 
         
     );
 }
@@ -43,7 +45,7 @@ export default Home;
 
 const styles = StyleSheet.create({
     container: {
-        paddingTop: 50,
+        paddingTop: 20,
         alignItems:'center',
         backgroundColor: "#ffcc6c",
         height: "100%"
@@ -59,10 +61,9 @@ const styles = StyleSheet.create({
         
       },      
       logo: {
-        width: "50%",
-        height: 200,
-        alignItems:'center',
-        marginTop: 0,
+        width: "43%",
+        height: 190,
+        alignItems:'center'
        
     
     },
@@ -83,27 +84,27 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     subtitle2:{
-        fontSize: 13,
+        fontSize: 15,
         fontWeight: 'bold',
         marginTop: 10,
         marginLeft: "2.5%",
         marginRight: "2.5%",
         paddingLeft: "2%",
         paddingRight: "2%",
-        maxWidth: "85%"
+        maxWidth: "80%"
 
         
 
     },
     subtitle3:{
-        fontSize: 13,
+        fontSize: 15,
         fontWeight: 'bold',
         marginTop: 10,
         marginLeft: "5.6%",
         marginRight: "5.6%",
         paddingLeft: "2%",
         paddingRight: "2%",
-        maxWidth: "88%"
+        maxWidth: "85%"
 
     },
     title2:{

@@ -17,7 +17,18 @@ const Player=({navigation,route})=>{
                 play={true}
                 videoId={'2Gj_YzE1-pg'}
                 />
-                <Text style={styles.title2}>Nuestro objetivo</Text>
+                <Text style={styles.title2}>Nuestros objetivos</Text>
+                <Text style={styles.title3}>●  Apoyar el fortalecimiento de habilidades parentales en familias con enfoque prenatal y primera infancia.</Text>
+                <Text style={styles.title4}>●  Fomentar la lectura madre/padre/hijo(a) en niños y niñas de 0 a 4 años.</Text>
+                <Text/>
+                <Text style={styles.title2}>Contenidos</Text>
+                <Text style={styles.title3}>●  Habilidades vinculares.</Text>
+                <Text style={styles.title3}>●  Habilidades formativas.</Text>
+                <Text style={styles.title3}>●  Habilidades protectoras.</Text>
+                <Text style={styles.title3}>●  Habilidades reflexivas.</Text>
+                <Text style={styles.title3}>●  Lectura vincular.</Text>
+                <Text style={styles.title3}>●  Autoeficacia parental.</Text>
+                <Text style={styles.title3}>●  Estrés parental.</Text>
             </View>
         </View>
     )
@@ -31,8 +42,25 @@ const styles = StyleSheet.create({
         backgroundColor: "#ffcc6c"
     },
     title2:{
-        fontSize: 20,
+        fontSize: 30,
         fontWeight: 'bold',
         alignItems: 'center',
     },
+    title3:{
+        fontSize: 16,
+        fontWeight: 'bold',
+        alignItems: 'center',
+        maxWidth:"77%",
+        marginTop:10
+    },
+    title4:{
+        fontSize: 16,
+        fontWeight: 'bold',
+        alignItems: 'center',
+        maxWidth:"80%",
+        marginTop:10,
+        marginLeft: 10
+        
+    },
+    
 })
